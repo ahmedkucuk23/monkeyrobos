@@ -3,7 +3,9 @@
 
     <div class="d-flex row align-items-center">
       <div class="col-lg-1" style="padding-right: 0;padding-left: 0;">
-    <%= image_tag "logo.png", class: "logo_pic" %>
+      <%= link_to root_path do %>
+        <%= image_tag "logo.png", class: "logo_pic" %>
+        <% end %>
       </div>
       <div class="col-lg-11">
 
@@ -20,3 +22,52 @@
     </div>
     </div>
   </nav>
+
+<div class="navbar_mobile">
+<header class="nav-top d-flex justify-space-between">
+  <%= link_to root_path do %>
+    <%= image_tag "logo.png", class: "logo_pic", style: "width:20%; padding-top:20px;" %>
+  <% end %>
+  <span class="hamburger material-icons" id="ham"><ion-icon name="menu-outline" style="color: #000; font-size: 40px;"></ion-icon></span>
+</header>
+
+<nav class="nav-drill">
+  <ul class="nav-items nav-level-1">
+    <li class="nav-item">
+      <a class="nav-link" href="#home">
+        Home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#whymint">
+        Why Mint?
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#whymint">
+        Launchpad
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        FAQ
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        Upcoming Launches
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        Staking
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        Mecha Bank
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>

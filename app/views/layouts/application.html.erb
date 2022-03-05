@@ -24,6 +24,8 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/032e1ad544.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -76,6 +78,34 @@
            text.style.display = "block";
         }
       }
+      </script>
+
+
+
+      <script type="text/javascript">
+        console.clear();
+
+        const navExpand = [].slice.call(document.querySelectorAll('.nav-expand'));
+        const backLink = `<li class="nav-item">
+          <a class="nav-link nav-back-link" href="javascript:;">
+            Back
+          </a>
+        </li>`;
+
+        navExpand.forEach(item => {
+          item.querySelector('.nav-expand-content').insertAdjacentHTML('afterbegin', backLink);
+          item.querySelector('.nav-link').addEventListener('click', () => item.classList.add('active'));
+          item.querySelector('.nav-back-link').addEventListener('click', () => item.classList.remove('active'));
+        });
+
+
+        // ---------------------------------------
+        // not-so-important stuff starts here
+
+        const ham = document.getElementById('ham');
+        ham.addEventListener('click', function () {
+          document.body.classList.toggle('nav-is-toggled');
+        });
       </script>
 
   </body>
