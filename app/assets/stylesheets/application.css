@@ -341,6 +341,7 @@ input[type=radio] + label {
 
 .mecha_link_one{
   text-align: center;
+  padding-bottom: 30px;
 }
 .mecha_link_h{
   font-size: 21px;
