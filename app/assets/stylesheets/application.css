@@ -309,6 +309,7 @@ input[type=radio] + label {
   margin-bottom:0;
 }
 
+
 @media only screen and (max-width: 1000px) {
   .Main_header{
     text-align: center;
@@ -316,12 +317,23 @@ input[type=radio] + label {
   .style-4{
     display: none;
   }
+  .header_main{
+    font-size: 40px;
+  }
+  .h3-text-bla{
+  font-size: 15px;
+}
 }
 
 @media only screen and (min-width: 1000px) {
   .navbar_mobile{
     display: none;
   }
+}
+
+.monkey_picture_link{
+  width: 30%;
+  padding:0px 0 30px 0;
 }
 
 
