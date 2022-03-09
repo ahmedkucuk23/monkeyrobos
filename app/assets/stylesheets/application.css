@@ -437,36 +437,33 @@ flex-direction: column;
     transition: 0.4s;
     margin: auto;
     border-radius: 0px;
-    border:2px solid #F10909;
+   /* border:2px solid #F10909;*/
     border-radius: 20px ;
     width: 80%;
-
 }
 .faq-body{
-    margin: auto;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    /* text-align: center; */
-   width: 80%;
-   padding: auto;
-   border-radius: 0px;
-   border:2px solid #F10909;
-
-   border-radius: 20px;
-
+  margin: auto;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  /* text-align: center; */
+  width: 80%;
+  padding: auto;
+  border-radius: 0px;
+ /* border:2px solid #F10909;*/
+  border-radius: 20px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .faq-page:hover {
-    background-color: #fff;
+  background-color: #fff;
 }
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
-    padding: 0 18px;
-    background-color: #fff;
-    color:#000;
-    display: none;
-    overflow: hidden;
-    border-radius: 20px;
+  padding: 0 18px;
+  background-color: #fff;
+  color:#000;
+  display: none;
+  overflow: hidden;
+  border-radius: 20px;
 
 }
 .faq-body > p{
