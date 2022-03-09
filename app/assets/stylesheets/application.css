@@ -356,10 +356,18 @@ input[type=radio] + label {
   width: 100%;
   object-fit: cover;
 }
+
+
+
 @media only screen and (min-width: 1000px) {
   .navbar_mobile{
     display: none;
   }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
   .monkey_picture_nft{
     width: 70%;
   }
