@@ -27,6 +27,10 @@
 
 
 
+.container-ahmed{
+  margin:0px 50px;
+}
+
 
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   input[type=checkbox],
@@ -170,10 +174,7 @@ input[type=radio] + label {
     object-fit: cover;
   }
   .logo_pic{
-    width: 60%;
-  }
-  .logo_pic:hover{
-    width: 60%;
+    width: 100%;
   }
   .team_link_h {
     font-size: 30px;
@@ -379,6 +380,8 @@ input[type=radio] + label {
   font-size: 20px;
   color: #fff;
   background-color: #F10909;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
   box-shadow:;
   padding:12px 20px;
   border-radius: 10px;
@@ -467,7 +470,8 @@ flex-direction: column;
 
 }
 .faq-body > p{
-  margin-top:1rem;
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
 }
 .Main_header{
   padding: 150px 0 100px 0;
