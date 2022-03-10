@@ -169,15 +169,19 @@ input[type=radio] + label {
   }
   .team_picture{
     width: 80%;
+    border-radius: 50%;
+    border: 8px solid #ED3833 ;
     height: 30vh;
-    padding-bottom: 10px;
+    padding: 7px;
+    margin-bottom: 25px;
     object-fit: cover;
   }
   .logo_pic{
     width: 100%;
   }
   .team_link_h {
-    font-size: 30px;
+    font-size: 23px;
+    font-weight:800;
   }
   .team_link_p{
     font-size:17px;
@@ -440,19 +444,18 @@ flex-direction: column;
     transition: 0.4s;
     margin: auto;
     border-radius: 0px;
-   /* border:2px solid #F10909;*/
-    border-radius: 20px ;
-    width: 80%;
+    border-bottom:1px solid rgb(237,56,51,0.7) ;
+    /*border-radius: 20px ;*/
+    width: 60%;
 }
 .faq-body{
   margin: auto;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   /* text-align: center; */
-  width: 80%;
   padding: auto;
   border-radius: 0px;
- /* border:2px solid #F10909;*/
-  border-radius: 20px;
+/*  border-bottom:2px solid #F10909;
+  border-radius: 20px;*/
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
@@ -462,25 +465,29 @@ flex-direction: column;
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
   padding: 0 18px;
-  background-color: #fff;
-  color:#000;
+  background-color: #f2a3a3;
+  color:#fff;
+  width: 60%;
   display: none;
   overflow: hidden;
-  border-radius: 20px;
-
 }
 .faq-body > p{
   margin-top:0.5rem;
   margin-bottom: 0.5rem;
 }
 .Main_header{
-  padding: 150px 0 100px 0;
+  padding: 150px 0 0px 0;
 }
 @media (max-width:900px) {
   .faq-page{
     font-size: 20px;
     text-align: center;
-
+  }
+  .faq-body{
+    width: 100%;
+  }
+  .faq-page{
+    width: 100%;
   }
   .Main_header{
     padding: 50px 0 100px 0;
@@ -488,10 +495,19 @@ flex-direction: column;
 }
 
 
+.links-acc{
+  color: #000;
+  font-size:32px;
+}
+.links-acc:hover{
+  color: #;
+}
 
 
-
-
+.monkey_picture_link-2{
+  width: 50%;
+  margin-bottom: 15px;
+}
 
 
 
@@ -526,6 +542,14 @@ flex-direction: column;
 .nav-is-toggled::after {
   opacity: 1;
   visibility: visible;
+}
+
+
+.link_red{
+  color: #F10909;
+}
+.link_red:hover{
+  color: #F10909;
 }
 
 .nav-drill {
