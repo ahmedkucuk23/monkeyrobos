@@ -187,9 +187,21 @@ input[type=radio] + label {
     font-size:17px;
   }
 
+  .social-icons-home{
+    color: #ED3833;
+    font-size: 40px;
+  }
 
+  .social-icons-home a{
+    color: #ED3833;
+    font-size: 40px;
+  }
+  .social-icons-home a:hover{
+    color: #A02327;
+    font-size: 40px;
+  }
  .header_main{
-  font-size:60px;
+  font-size:57px;
   font-family: 'Open Sans', sans-serif;
   font-weight:700;
  }
@@ -422,7 +434,7 @@ input[type=radio] + label {
 }
 .faq-container{
 display: flex;
-text-align: center;
+text-align: left;
 justify-content: center;
 flex-direction: column;
 }
@@ -446,7 +458,7 @@ flex-direction: column;
     border-radius: 0px;
     border-bottom:1px solid rgb(237,56,51,0.7) ;
     /*border-radius: 20px ;*/
-    width: 60%;
+    width: 90%;
 }
 .faq-body{
   margin: auto;
@@ -465,9 +477,9 @@ flex-direction: column;
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
   padding: 0 18px;
-  background-color: #f2a3a3;
-  color:#fff;
-  width: 60%;
+  /*background-color: #f2a3a3;*/
+  color:#000;
+  width: 90%;
   display: none;
   overflow: hidden;
 }
@@ -483,8 +495,9 @@ flex-direction: column;
     font-size: 20px;
     text-align: center;
   }
-  .team-picture{
+  .team_picture {
     width: 50%;
+    height: 100%;
   }
   .faq-body{
     width: 100%;
