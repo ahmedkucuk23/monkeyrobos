@@ -362,6 +362,9 @@ input[type=radio] + label {
   .h3-text-bla{
   font-size: 15px;
 }
+  .list-inline-item {
+    display: block;
+  }
 }
 
 .monkey_picture_link{
@@ -493,11 +496,14 @@ flex-direction: column;
 @media (max-width:900px) {
   .faq-page{
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+  }
+  .majmun_row{
+    display: none;
   }
   .team_picture {
-    width: 50%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
   }
   .faq-body{
     width: 100%;
