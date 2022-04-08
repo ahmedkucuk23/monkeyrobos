@@ -26,6 +26,18 @@
 }
 
 
+.phase_pic{
+  width: 100%;
+}
+
+.phase_pic{
+  width: 50%;
+}
+
+
+.phase-picture{
+  width: 40%;
+}
 
 .container-ahmed{
   margin:0px 50px;
@@ -194,17 +206,32 @@ input[type=radio] + label {
 
   .social-icons-home{
     color: #ED3833;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .social-icons-home a{
     color: #ED3833;
-    font-size: 40px;
+    font-size: 30px;
   }
   .social-icons-home a:hover{
     color: #A02327;
-    font-size: 40px;
+    font-size: 30px;
   }
+
+  .social-icons-2{
+    color: #ED3833;
+    font-size: 30px;
+  }
+
+  .social-icons-2 a{
+    color: #ED3833;
+    font-size: 30px;
+  }
+  .social-icons-2 a:hover{
+    color: #A02327;
+    font-size: 30px;
+  }
+
  .header_main{
   font-size:57px;
   font-family: 'Open Sans', sans-serif;
@@ -423,6 +450,7 @@ input[type=radio] + label {
   box-shadow: 0px 0px 10px red;
   text-decoration: none;
 }
+
 
 
 .mecha_link_one{
