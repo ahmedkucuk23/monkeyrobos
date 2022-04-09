@@ -507,6 +507,16 @@ input[type=radio] + label {
   text-decoration: none;
 }
 
+.apply_soon{
+  font-size: 20px;
+  color: #fff;
+  background-color: #6e6767;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  padding:12px 20px;
+  border-radius: 10px;
+  transition-duration:0.3s;
+}
 
 
 .mecha_link_one{
