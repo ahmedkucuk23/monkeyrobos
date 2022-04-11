@@ -1,0 +1,47 @@
+<%= form_with(model: contact) do |form| %>
+  <% if contact.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+
+      <ul>
+        <% contact.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :email, style: "display: block" %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div>
+    <%= form.label :project_name, style: "display: block" %>
+    <%= form.text_field :project_name %>
+  </div>
+
+  <div>
+    <%= form.label :project_supply, style: "display: block" %>
+    <%= form.text_field :project_supply %>
+  </div>
+
+  <div>
+    <%= form.label :project_price, style: "display: block" %>
+    <%= form.text_field :project_price %>
+  </div>
+
+  <div>
+    <%= form.label :info, style: "display: block" %>
+    <%= form.text_field :info %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
