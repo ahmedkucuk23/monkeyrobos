@@ -27,6 +27,54 @@
 
 
 
+
+.containerahmo {
+  display: flex;
+  width: 100%;
+  padding: 1% 0%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box2 {
+  flex: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 1%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box2 > img {
+  width: 140%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+
+.box2 > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box2:hover {
+  flex: 1 1 40%;
+}
+
+.box2:hover > img {
+  width: 60%;
+  height: 100%;
+}
+
+
+
+
+
+
 /*.education {
 }*/
 
