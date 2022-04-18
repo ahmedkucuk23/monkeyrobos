@@ -25,8 +25,18 @@
     box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(99 102 241 / 90%);
 }
 
+.education__content > h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.education__content > p {
+  text-transform: capitalize;
+  font-size: 17px;
+}
 
-
+.box2{
+  border-radius: 15px;
+}
 
 .containerahmo {
   display: flex;
@@ -356,9 +366,10 @@ input[type=radio] + label {
   font-weight:700;
  }
   .header_main_second{
-  font-size:40px;
+  font-size:43px;
   font-family: 'Open Sans', sans-serif;
   font-weight:700;
+  padding-bottom:10px;
  }
  .header_p{
   font-size:18px;
